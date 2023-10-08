@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Home | Lynbrook Research Club</title>
+    <title>Reminders | Lynbrook Research Club</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,12 +11,13 @@
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@400;700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 
     <!-- link the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
-              
 
     <!-- link icon menu -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,18 +36,18 @@
             <li class="menu">
                 <a href="#" class="menuBtn"><i class="fa fa-bars"></i></a>
                 <div class="menuContent">
-                        <a class="active" href="index.html">HOME</a>
-                        <a href="team.html">OUR TEAM</a>
-                        <a href="slides.html">PAST MEETINGS</a>
-                        <a href="opportunities.html">OPPORTUNITIES</a>
-                        <a href="reminders.html">REMINDERS</a>
+                    <a href="index.html">HOME</a>
+                    <a href="team.html">OUR TEAM</a>
+                    <a href="slides.html">PAST MEETINGS</a>
+                    <a href="opportunities.html">OPPORTUNITIES</a>
+                    <a class="active" href="reminders.html">REMINDERS</a>
                 </div>
             </li>
             <li >
                 <a class="icons" href="https://www.instagram.com/lynbrookresearch/"><i class="fab fa-instagram" style="font-size:30px; color:#e1eef2" ></i> </a>
             </li>
             <li>
-                <a class="icons" href="https://discord.com/invite/ta5RFv4p9B"><i class="fab fa-discord" style="font-size:27px; color:#e1eef2"></i> </a>
+                <a class="icons" href="https://www.instagram.com/lynbrookresearch/"><i class="fab fa-discord" style="font-size:27px; color:#e1eef2"></i> </a>
             </li>
             <li>
                 <a class="icons" href="mailto:lynbrookresearchclub@gmail.com"><i class="fa fa-envelope" style="font-size:30px; color:#e1eef2"></i> </a>
@@ -55,13 +56,30 @@
     </nav>
 
 
-
     <header>
-        <h1 class="wow wobble">Lynbrook Research Club</h1>
+        <h1>General Reminders</h1>
     </header>
 
     <main>
-
+        <div id="remContainer">
+            <div class="rC-item">
+        <h2>Synopsys <button onclick="clkButton1()" id = "rcButton1">+</button></h2>
+            <p class="remExtra" id="remExtra1" ></p>
+            </div>
+            <div class="rC-item" style="background-color:#b0763a">
+        <h2>Discord <button onclick ="clkButton2()" id="rcButton2">+</button></h2>
+            <p class="remExtra" id="remExtra2"></p>
+            </div>
+            <div class="rC-item">
+        <h2>Point Requirements <button onclick="clkButton3()" id="rcButton3">+</button></h2>
+            <p class="remExtra" id="remExtra3"></p>
+            </div>
+            <div class="rC-item" style="background-color:#b0763a">
+        <h2>Contacting Us <button onclick="clkButton4()" id="rcButton4">+</button></h2>
+            <p class="remExtra" id="remExtra4"></p>
+            </div>
+        </div>
+        
     </main>
 </body>
 
