@@ -54,7 +54,7 @@ function clkButton3 ()
 {
     if (extra3 == 0)
     {
-        remExtra3.innerHTML = "In order to apply for officer positions, you'll need -- points.";
+        remExtra3.innerHTML = "In order to apply for officer positions and/or get a cord, you'll need 30 points.";
         extra3 = 1;
         rcButton3.innerHTML = "-";
     }

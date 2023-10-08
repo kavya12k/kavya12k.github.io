@@ -1,16 +1,9 @@
 nav bar: done
-*index.html: 
-- about research club
-- pics from gallery?
-team.html:
-- add pics of all officers
 slides.html: done
-*opportunities.html:
-- add opportunities
-- maybe add doc of all science programs?
-reminders.html:
-- add points requirement
-- make discord an actual link mayb
-misc:
-- footer maybe
-- figure out wow.js 
+opportunities.html: done
+reminders.html: done
+footer: done
+*index.html: 
+- pics from gallery?
+*team.html:
+- add pics of all officers
