@@ -383,4 +383,11 @@ button:hover {
   }
 }
 
+@media only screen and (min-device-width: 320px)
+{
+.rC-item {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+}
 
