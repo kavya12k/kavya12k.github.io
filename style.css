@@ -522,18 +522,12 @@ button:hover {
 @media (max-width:600px)
 {
   #oppDoc {
-    width: 400px;
+    width: 500px;
     height: 600px;
   }
 }
 
-@media (max-width:400px)
-{
-  #oppDoc {
-    width: 300px;
-    height: 600px;
-  }
-}
+
 
 #roContainer p {
   margin-bottom: 0em;
