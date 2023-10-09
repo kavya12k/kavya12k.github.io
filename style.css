@@ -505,6 +505,7 @@ button:hover {
   background-color: #828385;
   margin-top:1em;
   align-items:center;
+  overflow:hidden;
 }
 
 #roContainer {
@@ -527,10 +528,18 @@ button:hover {
   }
 }
 
-@media (max-width:320px)
+@media (max-width:400px)
 {
   #oppDoc {
     width: 320px;
+    height: 600px;
+  }
+}
+
+@media (max-width:320px)
+{
+  #oppDoc {
+    width: 300px;
     height: 600px;
   }
 }
