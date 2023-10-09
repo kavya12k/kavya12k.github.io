@@ -359,16 +359,16 @@ button:hover {
 @media (max-width: 500px)
 {
   .rC-item {
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
   }
 }
 
 @media (max-device-width: 400px)
 {
 .rC-item {
-  margin-left: 1.5em;
-  margin-right: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 }
 
@@ -522,7 +522,15 @@ button:hover {
 @media (max-width:600px)
 {
   #oppDoc {
-    width: 500px;
+    width: 400px;
+    height: 600px;
+  }
+}
+
+@media (max-width:320px)
+{
+  #oppDoc {
+    width: 320px;
     height: 600px;
   }
 }
